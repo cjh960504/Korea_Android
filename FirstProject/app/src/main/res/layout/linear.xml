@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFDD00"
+    android:orientation="vertical">
+    <!--
+        리니어 레이아웃은? 선형 레이아웃으로서, 내부의 자식 컴포넌트들을 일렬
+        로 배치한다.. 이때 일렬방향으로 두가지 있다.
+        수직 : Vertical
+        수평 : Horizontal
+    -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="난 버튼" />
+
+    <ImageView
+        android:layout_width="218dp"
+        android:layout_height="142dp"
+        android:src="@drawable/git" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="여기에 텍스트 입력"/>
+
+    <!--inputType : 사용자의 편의성을 위함-->
+    <EditText
+        android:inputType="phone"
+        android:hint="여기에 연락처 입력"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="야간모드" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

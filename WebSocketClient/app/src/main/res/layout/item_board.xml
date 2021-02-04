@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/text_style"
+        android:id="@+id/t_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="나는 자연인이다" />
+
+    <TextView
+        style="@style/text_style"
+        android:id="@+id/t_writer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t_title"
+        android:layout_alignParentLeft="true"
+        android:text="홍길동" />
+
+    <TextView
+
+        style="@style/text_style"
+        android:id="@+id/t_regdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t_writer"
+        android:layout_alignParentLeft="true"
+        android:text="2021-02-03" />
+
+    <TextView
+        android:id="@+id/t_hit"
+        android:background="#DDC85B"
+        android:layout_margin="3dp"
+        android:padding="10dp"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="101" />
+</RelativeLayout>
